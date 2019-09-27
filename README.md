@@ -1,8 +1,8 @@
-#unsafe-try-catch
+# unsafe-try-catch
 
 Unsafe try-catch solution for Go. Unsafe because it uses runtime internals: gosave, and gogo.
 
-#usage
+# usage
 
 ```go
 func CopyFile(src, dst string) error {
