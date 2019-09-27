@@ -13,7 +13,7 @@ func gosave(buf *byte)
 //go:noescape
 func gogo(buf *byte)
 
-// TryCatcher -
+// TryCatcher - 
 type TryCatcher struct {
 	/* just because I don't want to copy whole struct from runtime src */
 	gobuf [80]byte
