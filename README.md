@@ -1,6 +1,6 @@
 # unsafe-try-catch
 
-Unsafe try-catch solution for Go. Unsafe because it uses runtime internals: gosave, and gogo.
+Unsafe try-catch solution for Go. It does not work on newer versions.
 
 # usage
 
