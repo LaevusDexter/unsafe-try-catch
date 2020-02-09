@@ -24,7 +24,10 @@ type TryCatcher struct {
 func (tc *TryCatcher) Catch() error {
 	gosave(&tc.gobuf[0])
 	if tc.err != nil {
-		return tc.err
+		err := tc.err
+		tc.err = nil
+		
+		return err
 	}
 
 	return nil
